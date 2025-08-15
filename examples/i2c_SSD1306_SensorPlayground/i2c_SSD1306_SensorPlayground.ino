@@ -1,7 +1,7 @@
 //***********************************************************************************************
 //  This example shows how to read an LDR sensor (also called photoresistor) 
 //  to open the RoboEyes when it's bright and close the eyes in the dark.
-//  Check the decicated Youtube short:
+//  Check the dedicated Youtube short:
 //  https://youtube.com/shorts/vDrkL4PK0HA?feature=share
 //
 //  Parts needed:
