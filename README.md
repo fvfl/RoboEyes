@@ -5,9 +5,10 @@ Draws smoothly animated robot eyes on OLED displays, using the Adafruit GFX libr
 Developing this library was the first step of a larger project: the creation of my own DIY robot from the design perspective. Check out the [FluxGarage Youtube Channel](https://www.youtube.com/@FluxGarage).
 
 
-## Watch the First Demo on Youtube
+## Watch the Demo and Getting Started Videos on Youtube
 
 [![#1 - Smoothly Animated Robot Eyes on OLED Displays with the Robo Eyes Library](https://img.youtube.com/vi/ibSaDEkfUOI/0.jpg)](https://www.youtube.com/watch?v=ibSaDEkfUOI)
+[![#2 - Getting Started With the Free Robo Eyes Arduino Library](https://img.youtube.com/vi/WtLWc5zzrmI/0.jpg)](https://www.youtube.com/watch?v=WtLWc5zzrmI)
 
 
 ## Installation
@@ -24,9 +25,9 @@ Developing this library was the first step of a larger project: the creation of 
 - **update()** _update eyes drawings in the main loop, limited by max framerate as defined in begin()_
 - **drawEyes()** _same as update(), but without the framerate limitation_
 - **setDisplayColors()** _(uint8_t background, uint8_t main)_
-	-> background: background and overlays, choose 0 for monochrome displays and 0x00 for grayscale displays such as SSD1322
-	-> main: drawings, choose 1 for monochrome displays and 0x0F for grayscale displays such as SSD1322 (0x0F = maximum brightness)
- 
+-> background: background and overlays, choose 0 for monochrome displays and 0x00 for grayscale displays such as SSD1322
+-> main: drawings, choose 1 for monochrome displays and 0x0F for grayscale displays such as SSD1322 (0x0F = maximum brightness)
+  
 ### Define Eye Shapes, all values in pixels
 - **setWidth()** _(byte leftEye, byte rightEye)_
 - **setHeight()** _(byte leftEye, byte rightEye)_
