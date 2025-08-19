@@ -9,6 +9,7 @@
 //  Adafruit's example has been extended for being used with the FluxGarage RoboEyes, 
 //  showing different robot face expressions and animations in relation to the temperature  
 //  variable "t". Beside the DHT22 sensor, add an I2C SSD1306 OLED display to get started.
+//  Check the dedicated Youtube short: https://youtube.com/shorts/ziQx-pAi-9o
 //
 //  Published in August 2025 by Dennis Hoelscher, FluxGarage
 //  www.youtube.com/@FluxGarage
