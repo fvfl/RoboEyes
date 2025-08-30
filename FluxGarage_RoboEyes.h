@@ -56,7 +56,7 @@ uint8_t MAINCOLOR = 1; // drawings
 // Constructor: takes a reference to the active Adafruit display object (e.g., Adafruit_SSD1327)
 // Eg: roboEyes<Adafruit_SSD1327> = eyes(display);
 template<typename AdafruitDisplay>
-class roboEyes
+class RoboEyes
 {
 private:
 
@@ -217,7 +217,7 @@ float sweat3Width = 1;
 //  GENERAL METHODS
 //*********************************************************************************************
 
-roboEyes(AdafruitDisplay &disp) : display(&disp) {};
+RoboEyes(AdafruitDisplay &disp) : display(&disp) {};
 
 // Startup RoboEyes with defined screen-width, screen-height and max. frames per second
 void begin(int width, int height, byte frameRate) {
