@@ -22,7 +22,7 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 #include <FluxGarage_RoboEyes.h>
-roboEyes roboEyes; // create eyes
+RoboEyes<Adafruit_SSD1306> roboEyes(display);
 
 #include <Pushbutton.h> // Pushbutton library by Pololu, can be found in the Arduino library manager
 
@@ -239,3 +239,4 @@ void updatePosition(){
     else if(position==7){roboEyes.setPosition(W);}
     else if(position==8){roboEyes.setPosition(NW);}
 } // end of updatePosition
+
