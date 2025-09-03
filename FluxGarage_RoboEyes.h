@@ -1,5 +1,5 @@
 /*
- * FluxGarage RoboEyes for OLED Displays V 1.1.0
+ * FluxGarage RoboEyes for OLED Displays V 1.1.1
  * Draws smoothly animated robot eyes on OLED displays, based on the Adafruit GFX 
  * library's graphics primitives, such as rounded rectangles and triangles.
  *   
@@ -716,5 +716,6 @@ void drawEyes(){
 
 
 }; // end of class roboEyes
+
 
 #endif
