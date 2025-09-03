@@ -33,7 +33,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
 */
 
 #include <FluxGarage_RoboEyes.h>
-roboEyes roboEyes; // create eyes
+RoboEyes<Adafruit_SSD1306> roboEyes(display); // create RoboEyes instance
 
 
 void setup() {
@@ -81,3 +81,4 @@ void loop() {
  // Dont' use delay() here in order to ensure fluid eyes animations.
  // Check the AnimationSequences example for common practices.
 }
+
