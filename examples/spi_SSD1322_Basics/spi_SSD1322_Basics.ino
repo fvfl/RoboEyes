@@ -27,7 +27,7 @@
 Adafruit_SSD1322 display(256, 64, &SPI, OLED_DC, OLED_RESET, OLED_CS);
 
 #include <FluxGarage_RoboEyes.h>
-roboEyes roboEyes; // create RoboEyes instance
+RoboEyes<Adafruit_SSD1322> roboEyes(display); // create RoboEyes instance
 #define SCREEN_WIDTH 256 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
@@ -80,4 +80,5 @@ void loop() {
  // Dont' use delay() here in order to ensure fluid eyes animations.
  // Check the AnimationSequences example for common practices.
 }
+
 
