@@ -33,7 +33,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
 */
 
 #include <FluxGarage_RoboEyes.h>
-roboEyes roboEyes; // create eyes
+RoboEyes<Adafruit_SSD1306> roboEyes(display); // create RoboEyes instance
 
 // EVENT TIMER
 unsigned long eventTimer; // will save the timestamps
