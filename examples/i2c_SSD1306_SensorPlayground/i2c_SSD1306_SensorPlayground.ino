@@ -30,7 +30,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // RoboEyes
 #include <FluxGarage_RoboEyes.h>
-roboEyes roboEyes; // create RoboEyes instance
+RoboEyes<Adafruit_SSD1306> roboEyes(display); // create RoboEyes instance
 
 
 void setup() {
