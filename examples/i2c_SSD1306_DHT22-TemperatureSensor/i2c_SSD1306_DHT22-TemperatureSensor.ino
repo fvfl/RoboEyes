@@ -52,7 +52,7 @@ DHT dht(DHTPIN, DHTTYPE);
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 #include <FluxGarage_RoboEyes.h> // https://github.com/FluxGarage/RoboEyes
-roboEyes roboEyes; // create RoboEyes instance
+RoboEyes<Adafruit_SSD1306> roboEyes(display); // create RoboEyes instance
 
 // EVENT TIMER
 unsigned long eventTimer; // will save the timestamps
