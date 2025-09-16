@@ -61,3 +61,7 @@ Blinks both eyes randomly:
 Repositions both eyes randomly:
 - **setIdleMode()** _(bool ON/OFF, int interval, int variation) -> turn on/off, set interval between each eye repositioning in full seconds, set range for additional random interval variation in full seconds_
 
+### Further (Inofficial) Resources by Other Users
+- micropython-roboeyes by mchobby: https://github.com/mchobby/micropython-roboeyes
+- RoboEyes Micropython Edition by Youssef Tech: https://github.com/yousseftechdev/RoboEyes-Micropython
+- MQTT control system by teletoby-swctv: https://github.com/teletoby-swctv/FluxGarage-RoboEyes-MQTT
