@@ -64,4 +64,6 @@ Repositions both eyes randomly:
 ### Further (Inofficial) Resources by Other Users
 - micropython-roboeyes by mchobby: https://github.com/mchobby/micropython-roboeyes
 - RoboEyes Micropython Edition by Youssef Tech: https://github.com/yousseftechdev/RoboEyes-Micropython
+- RoboEyes for TFT displays by Youssef Tech: https://github.com/yousseftechdev/RoboEyesTFT
 - MQTT control system by teletoby-swctv: https://github.com/teletoby-swctv/FluxGarage-RoboEyes-MQTT
+
